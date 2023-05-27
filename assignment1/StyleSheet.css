@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Arial", monospace;, sans-serif;
+  font-family: "Arial", italic, sans-serif;
 }
 
 .row {
@@ -16,13 +16,13 @@ body {
 h1 {
   margin-bottom: 15px;
   text-align: center;
-  color: #D68910;
+  color: #d9d2e9;
   font-size: 50px;
 }
 
 .box {
   width: 100%;
-  overflow: hidden;
+  overflow: none;
 }
 
 .content-name {
@@ -48,11 +48,11 @@ h1 {
   font-size: 25px;
   padding: 2%;
   padding-top: 55px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .name1 {
-  background-color: ##58D68D;
+  background-color: #58D68D;
 }
 
 .name2 {
@@ -91,7 +91,7 @@ h1 {
   }
 }
 
-/* just medium devices */
+/* just small devices */
 @media (max-width: 767px) {
   .col-sm-12 {
     float: left;
