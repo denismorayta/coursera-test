@@ -5,7 +5,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Arial", monospace;, sans-serif;
 }
 
 .row {
@@ -16,7 +16,7 @@ body {
 h1 {
   margin-bottom: 15px;
   text-align: center;
-  color: #ff4532;
+  color: #D68910;
   font-size: 50px;
 }
 
@@ -52,19 +52,19 @@ h1 {
 }
 
 .name1 {
-  background-color: #ffb6c1;
+  background-color: ##58D68D;
 }
 
 .name2 {
   color: white;
-  background-color: #ff0000;
+  background-color: #AF7AC5;
 }
 
 .name3 {
-  background-color: #ffff00;
+  background-color: #AED6F1;
 }
 
-/* Large devices only */
+/* Just large devices */
 @media (min-width: 992px) {
   .col-lg-4 {
     float: left;
@@ -72,7 +72,7 @@ h1 {
   }
 }
 
-/* Medium devices only */
+/* Just medium devices */
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6,
   .col-md-12 {
@@ -91,7 +91,7 @@ h1 {
   }
 }
 
-/* Small devices only */
+/* just medium devices */
 @media (max-width: 767px) {
   .col-sm-12 {
     float: left;
