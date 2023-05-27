@@ -1,7 +1,68 @@
+/* Reset default browser styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply box-sizing: border-box to all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
 h1 {
-2
-color: orange;
-3
-text-align: center;
-4
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.row {
+  overflow: hidden;
+}
+
+.section {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  position: relative;
+  background-color: #F44336; /* Set your desired color */
+  color: #FFF; /* Set text color that is easy to read */
+  padding: 5px 10px;
+  font-size: 125%; /* 25% larger than the paragraph font-size */
+  margin-top: -10px; /* Push the text down */
+}
+
+/* Media queries for responsive layout */
+@media (max-width: 991px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section {
+    width: 50%;
+  }
+
+  .section:nth-child(3) {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    width: 100%;
+  }
 }
