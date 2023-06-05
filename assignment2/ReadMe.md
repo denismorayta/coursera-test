@@ -1,4 +1,4 @@
-# Assignment1 Module 3 Coding Assignment
+# Assignment1 Module 3 Coding Assignment2
 
 HTML, CSS, and Javascript for Web Developers
 
