@@ -80,9 +80,9 @@ li{
 	margin: 20px;
 	width: auto;
 	height: auto;
-	color: black;
+	color: white;
 	background-color: rgba(0,0,0,0.4);
-	font-family: "Arial", sans-serif;
+	font-family: "monospace"
 	padding: 20px;
 }
 
